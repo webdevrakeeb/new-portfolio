@@ -1,0 +1,265 @@
+/* css for large screen device */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* home page responsive design start */
+	.site-menu-bar ul {
+	  text-align: left;
+	}
+
+	.site-menu-bar ul li {
+		margin-right: 14px;
+	}
+
+/* home page responsive design end */
+
+/* about page css start */
+	.lg-pdr {
+	  padding-left: 0;
+	}
+
+	.lg-pda {
+		padding-left: 15px!important;
+	}
+/* about page css end */
+
+
+/* work page responsive design start */
+	.martop {
+	  margin-top: 0;
+	}
+
+	.marrestop {
+	  margin-top: -94px;
+	}
+
+	.martop2 {
+	  margin-top: -45px;
+	}
+/* work page responsive design end */
+
+/* contact page responsive design strat */
+.all-contact {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.single-contact {
+	width: 48%;
+}
+
+.m-left {
+	margin-left: 4%;
+}
+
+/* contact page responsive design end */
+
+.contact-social-link {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+}
+
+
+
+/* css for tablet and ipad device */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+/* home page responsive design start */
+	.mobile-menu-icon {
+		display: block;
+		text-align: right;
+	}
+
+	.mobile-menu-icon i {
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.site-menu-bar {
+		display: none;
+	}
+
+/* home page responsive design end */
+
+/* resume page responsive design start */
+	.award-column {
+	  margin-top: 30px;
+	}
+
+	.my-knowledge {
+	  margin-top: 50px;
+	}
+/* resume page responsive design start */
+
+/* about page css start */
+.md-ml-add {
+	margin-left: 20px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+.about-me-img {
+  margin-bottom: 80px;
+}
+/* about page css end */
+
+
+/* work page responsive design start */
+	.martop {
+	  margin-top: 0;
+	}
+
+	.marrestop {
+	  margin-top: -84px;
+	}
+
+	.martop2 {
+	  margin-top: -45px;
+	}
+/* work page responsive design end */
+
+
+.contact-social-link {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/* css for mobile screen */
+@media screen and (max-width: 768px) {
+/* home page responsive design start */
+	.mobile-menu-icon {
+		display: block;
+		text-align: right;
+	}
+
+	.mobile-menu-icon i {
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.site-menu-bar {
+		display: none;
+	}
+
+
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+	  position: relative;
+	  width: 100%;
+	  padding-right: 0px;
+	  padding-left: 0px;
+	}
+
+/* home page responsive design end */
+
+/* resume page responsive design start */
+	.area-bg {
+	  padding-right: 10px;
+	  padding-left: 10px;
+	}
+
+	.row-title span::after {
+	  width: 40%;
+	}
+
+	.ecperiance-column, .award-column, .my-knowledge {
+	  margin-top: 30px;
+	}
+/* resume page responsive design start */
+
+/* about page css start */
+.main-about-storage {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.page-title h2 {
+  font-size: 26px;
+}
+
+.page-title h2::after {
+  width: 40%;
+}
+
+.about-me-img {
+  margin-bottom: 80px;
+}
+
+.container-pd-rmv {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* about page css end */
+
+
+
+/* work page responsive design start */
+.area-bg {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.overflow-hidden img {
+	width: 100%;
+}
+/* work page responsive design end */
+
+
+/* contact page responsive design start */
+.row-title span {
+  font-size: 32px;
+}
+
+.contact-form {
+  padding: 60px 15px;
+}
+
+.pafleft {
+	padding-left: 0;
+}
+/* contact page responsive design end */
+
+.contact-social-link {
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+
+.pws_tabs_list {
+	padding: 0;
+	padding-top: 20px;
+}
+
+.info p {
+	font-size: 14px;
+}
+
+.single-do {
+	display: block;
+}
+
+.single-do-img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+}
